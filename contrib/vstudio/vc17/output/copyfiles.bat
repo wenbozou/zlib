@@ -3,6 +3,7 @@ rem x86 release build
  rem Copy the .h files to the include directory
  if not exist ".\include" mkdir ".\include"
 copy /Y "..\..\..\..\zlib.h" ".\include\zlib.h"
+copy /Y "..\..\..\..\zlib.h" ".\include\zconf.h"
 
  rem  Copy the zlib dll to the bin directory
  if not exist ".\bin\x86\Release" mkdir ".\bin\x86\Release"
